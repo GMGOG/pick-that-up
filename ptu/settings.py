@@ -15,7 +15,7 @@ SECRET_KEY = '(4-+#r(_+-q(t35opug1pywiu=i=#oz8w@+ku9y2vmpe2lc8(l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://hackpcbt.herokuapp.com/']
+ALLOWED_HOSTS = ['https://pick-that-up.herokuapp.com/']
 
 
 # Application definition
@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hackpcbt.urls'
+ROOT_URLCONF = 'pick-that-up.urls'
 
 TEMPLATES = [
     {
