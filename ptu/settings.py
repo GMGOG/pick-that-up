@@ -1,5 +1,6 @@
-import os
 import django_heroku
+import os
+
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -16,7 +17,6 @@ SECRET_KEY = '(4-+#r(_+-q(t35opug1pywiu=i=#oz8w@+ku9y2vmpe2lc8(l'
 DEBUG = True
 
 ALLOWED_HOSTS = ['https://pick-that-up.herokuapp.com/']
-
 
 # Application definition
 

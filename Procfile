@@ -1,1 +1,1 @@
-web: gunicorn hackpcbt.wsgi --log-file -
+web: gunicorn pick-that-up.wsgi --log-file -
