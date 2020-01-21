@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hackpcbt.wsgi.application'
+WSGI_APPLICATION = 'pick-that-up.wsgi.application'
 
 
 # Database
