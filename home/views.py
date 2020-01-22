@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import random
 
-cute = [' never play hide and seek with you because someone like you is impossible to find.',
+data = [' never play hide and seek with you because someone like you is impossible to find.',
         'Do you have a name or can I call you mine?',
         'You may fall from the sky, you may fall from a tree, but the best way to fall… is in love with me.',
         'I am going to complain to Spotify about you not being this weeks hottest single.',
@@ -115,10 +115,8 @@ cute = [' never play hide and seek with you because someone like you is impossib
         'You so lovely, you make me wanna go out and get a job.',
         'You know how I got these guns? [Point to biceps] Lifting children out of poverty.',
         'Your mom told me to say “Hi” to you.',
-        'I just got dumped, and I think that you could make me feel better.'
-        ]
-
-cheesy = [
+        'I just got dumped, and I think that you could make me feel better.',
+        #Cheesy
         'Are you a magician? Because whenever I look at you, everyone else disappears!',
         'I’m not a photographer, but I can picture me and you together.',
         'Do I know you? ‘Cause you look a lot like my next girlfriend/boyfriend.',
@@ -168,14 +166,11 @@ cheesy = [
         'You must be a broom, ‘cause you just swept me off my feet.',
         'My buddies bet me that I wouldn’t be able to start a conversation with the hottest person in the bar. Wanna buy some drinks with their money?',
         'Is it hot in here or is it just you?',
-        'Hello. Cupid called. He wants to tell you that he needs my heart back.', 
+        'Hello. Cupid called. He wants to tell you that he needs my heart back.',
         ]
 
 types = []
 def home(request):
-        line_1 = cute[random.randint(0,114)]
-        line_2 = cheesy[random.randint(0,49)]
-        types.append(line_1)
-        types.append(line_2)    
-        return render(request,'home/index.html',{'lines':types[random.randint(0,1)]})
+        line = data[random.randint(0,164)]
+        return render(request,'home/index.html',{'lines':line})
 
