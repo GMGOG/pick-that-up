@@ -178,3 +178,5 @@ def home(request):
         type.append(line_1)
         type.append(line_2)    
         return render(request,'home/index.html',{'lines':type[random.randint(0,1)])
+    line = cute[random.randint(0,112)]
+    return render(request,'home/index.html',{'lines':line})
