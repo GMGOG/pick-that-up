@@ -95,7 +95,7 @@ data = ['''I will never play hide and seek with you because someone like you is 
         '''You look cold. Want to use me as a blanket?''',
         '''I might be ugly but I’ll treat you right!''',
         '''Are you netflix? Because i could watch you for hours.''',
-        '''Charzards are red Squitals are blue if u were a Pokemon i would choose you!''',
+        '''Charmanders are red squirtles are blue if u were a Pokemon i would choose you!''',
         '''Do you like star wars? Because yoda only one for me!''',
         '''Are you made out of grapes? Because you are fine as wine!''',
         '''You can’t be my first, but you can be my last.''',
