@@ -173,9 +173,10 @@ cheesy = [
 
 types = []
 def home(request):
+        t
         line_1 = cute[random.randint(0,116)]
         line_2 = cheesy[random.randint(0,49)]
-        type.append(line_1)
-        type.append(line_2)    
+        types.append(line_1)
+        types.append(line_2)    
         return render(request,'home/index.html',{'lines':type[random.randint(0,1)]})
 
