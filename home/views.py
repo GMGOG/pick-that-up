@@ -120,5 +120,5 @@ cute = [' never play hide and seek with you because someone like you is impossib
 
 
 def home(request):
-    line = cute[random.randint(0,2)]
+    line = cute[random.randint(0,112)]
     return render(request,'home/index.html',{'lines':line})
