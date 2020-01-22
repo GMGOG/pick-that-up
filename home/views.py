@@ -173,7 +173,7 @@ cheesy = [
 
 types = []
 def home(request):
-        line_1 = cute[random.randint(0,116)]
+        line_1 = cute[random.randint(0,114)]
         line_2 = cheesy[random.randint(0,49)]
         types.append(line_1)
         types.append(line_2)    
