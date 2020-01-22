@@ -122,7 +122,7 @@ cheesy = [
         'Are you a magician? Because whenever I look at you, everyone else disappears!',
         'I’m not a photographer, but I can picture me and you together.',
         'Do I know you? ‘Cause you look a lot like my next girlfriend/boyfriend.',
-        'Do you know what my shirt is made of? Boyfriend/girlfriend material?,
+        'Do you know what my shirt is made of? Boyfriend/girlfriend material?',
         'They say Disneyland is the happiest place on earth. Well apparently, no one has ever been standing next to you.',
         'For some reason, I was feeling a little off today. But when you came along, you definitely turned me on.',
         'Are you religious? Because you’re the answer to all my prayers.',
@@ -177,6 +177,5 @@ def home(request):
         line_2 = cheesy[random.randint(0,49)]
         type.append(line_1)
         type.append(line_2)    
-        return render(request,'home/index.html',{'lines':type[random.randint(0,1)])
-    line = cute[random.randint(0,112)]
-    return render(request,'home/index.html',{'lines':line})
+        return render(request,'home/index.html',{'lines':type[random.randint(0,1)]})
+
