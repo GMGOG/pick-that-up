@@ -58,7 +58,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pick-that-up.wsgi.application'
+WSGI_APPLICATION = 'ptu.wsgi.application'
 
 
 # Database
