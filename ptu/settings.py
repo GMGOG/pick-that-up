@@ -40,7 +40,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'pick-that-up.urls'
+ROOT_URLCONF = 'ptu.urls'
 
 TEMPLATES = [
     {
